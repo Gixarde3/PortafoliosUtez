@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+#TexNavbar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ImgNavB{
+    width: 100px;
+    height: 100px;
+}
+.ImgFooter{
+    width: 50px;
+    height: 50px;
+}
+#ajusArea{
+    margin: auto;
+}
+
+#disleft{
+    text-align: left;
+}
+.posición {
+    position: relative; 
+}
+.NV1{
+    z-index: 1;
+}
+.NV2{
+    z-index: 2;
+}
+.img1{
+    margin-top: 10px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.MargenesEqui{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img22{
+    margin-left: 300px;
+}
+.img33{
+    margin-bottom: 20px;
+}
+.img222{
+    margin-left: 200px;
+}
+.inverted {
+    filter: invert(100%);  
+}
+.img33{
+    margin-left: 20px;
+}
+.img333{
+    margin-right: 120px;
+}
+.img23{
+    margin-left: 120px;
+}
+.img3333{
+    margin-right: 200px;
+}
+.form1{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.portafolios{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.margen{
+    text-align: center;
+}
+.foto{
+    display: block;
+    margin: 0 auto;
+    max-width: 40%;
+    height: auto;
+}
+.caption{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.caption2{
+    flex: 1;
+}
+.collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    place-items: center;
+}
+.collage-2{
+    width: 100%;
+    height: auto;
+}
+.TexNV3{
+    text-align: justify;
+}
+.TexH2{
+    margin-left: 20pc; 
+    margin-right: 20pc; 
+    text-align: justify;
+}
+.MargeMain{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.MargeP{
+    padding: 20px 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.alignCenter{
+    display: flex;
+    justify-content: center;
+}
+.Separador{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#imgCard{
+    width: 18rem;
+}
+.paddingmap{
+    padding: 20px 20px;
+}
+.CardSpace{
+    padding: 40px 40px;
+    max-width: 1080px;
+   
+}
+.ForVide{
+    align-items: center;
+    padding: 70px 70px;
+    scale: 1.5;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.TexH3{
+    margin-left: 20px; 
+    margin-right: 20px; 
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .collage{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
